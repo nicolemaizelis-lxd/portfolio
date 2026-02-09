@@ -1,39 +1,187 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>Nicole Maizelis | LXD Portfolio</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="styles.css">
+  <meta charset="UTF-8" />
+  <title>Nicole Maizelis | Portfolio</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <meta name="description" content="Nicole Maizelis — Learning Experience Design portfolio, case studies, and selected work." />
+  <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
-<header>
-  <h1>Nicole Maizelis</h1>
-  <p>Learning Experience Design Portfolio</p>
-</header>
+  <div class="shell">
+    <aside class="side">
+      <div class="side-card">
+        <div class="avatar" aria-hidden="true"></div>
 
-<main>
-  <section id="about">
-    <h2>About</h2>
-    <p>
-      I design learning experiences that are structured, human-centred,
-      and grounded in real-world constraints.
-    </p>
-  </section>
+        <div class="side-header">
+          <div class="name">Nicole Maizelis</div>
+          <div class="role">Learning Experience Design</div>
+        </div>
 
-  <section id="projects">
-    <h2>Selected Work</h2>
-    <ul>
-      <li>Instructional Design Case Study</li>
-      <li>Interactive Learning Module</li>
-      <li>Curriculum-to-Workplace Translation</li>
-    </ul>
-  </section>
-</main>
+        <div class="side-meta">
+          <div class="meta-row">
+            <span class="meta-label">Location</span>
+            <span class="meta-value">Ontario, Canada</span>
+          </div>
+          <div class="meta-row">
+            <span class="meta-label">Email</span>
+            <a class="meta-link" href="mailto:hello@example.com">hello@example.com</a>
+          </div>
+          <div class="meta-row">
+            <span class="meta-label">LinkedIn</span>
+            <a class="meta-link" href="#" target="_blank" rel="noreferrer">Add link</a>
+          </div>
+        </div>
 
-<footer>
-  <p>© 2026 Nicole Maizelis</p>
-</footer>
+        <div class="side-actions">
+          <a class="btn" href="#projects">View work</a>
+          <a class="btn btn-ghost" href="#contact">Contact</a>
+        </div>
+      </div>
+    </aside>
+
+    <main class="main">
+      <header class="top">
+        <div>
+          <h1>Nicole Maizelis</h1>
+          <p class="lead">I design structured, human-centred learning experiences grounded in real-world constraints.</p>
+        </div>
+
+        <nav class="nav" aria-label="Primary">
+          <a href="#about">About</a>
+          <a href="#experience">Experience</a>
+          <a href="#projects">Projects</a>
+          <a href="#education">Education</a>
+          <a href="#skills">Skills</a>
+        </nav>
+      </header>
+
+      <section id="about" class="section">
+        <div class="section-head">
+          <h2>About</h2>
+          <p class="section-sub">Short, specific, and outcome-focused.</p>
+        </div>
+        <div class="card">
+          <p>
+            I build learning that is easy to follow, measurable, and respectful of learner time.
+            I translate complex content into clear pathways, job-relevant practice, and usable performance support.
+          </p>
+        </div>
+      </section>
+
+      <section id="experience" class="section">
+        <div class="section-head">
+          <h2>Experience</h2>
+          <p class="section-sub">Write this like impact bullets, not a job description.</p>
+        </div>
+
+        <div class="stack">
+          <article class="card item">
+            <div class="item-top">
+              <h3>Intermediate Teacher, YRDSB</h3>
+              <div class="muted">201X–Present</div>
+            </div>
+            <ul class="bullets">
+              <li>Designed end-to-end learning experiences with clear targets, scaffolds, and assessment evidence.</li>
+              <li>Built digital workflows (Google Suite) to reduce admin work and improve consistency for learners.</li>
+              <li>Delivered PD on AI in education and supported adoption through practical, classroom-ready models.</li>
+            </ul>
+          </article>
+
+          <article class="card item">
+            <div class="item-top">
+              <h3>Program Lead, Student Game Café</h3>
+              <div class="muted">Selected projects</div>
+            </div>
+            <ul class="bullets">
+              <li>Created a student-run experiential learning lab with repeatable systems and feedback loops.</li>
+              <li>Designed engaging constraints and reflection prompts to make learning visible and transferable.</li>
+            </ul>
+          </article>
+        </div>
+      </section>
+
+      <section id="projects" class="section">
+        <div class="section-head">
+          <h2>Featured projects</h2>
+          <p class="section-sub">Use 2–4 case studies. Each should have a clear problem, approach, and outcome.</p>
+        </div>
+
+        <div class="grid">
+          <a class="card project" href="#" aria-label="Project: Onboarding module case study">
+            <div class="project-tag">Case study</div>
+            <h3>Onboarding module</h3>
+            <p>Scenario-based onboarding with performance support and a measurement plan.</p>
+            <div class="project-meta">Role: Designer • Deliverables: storyboard, module, job aid</div>
+          </a>
+
+          <a class="card project" href="#" aria-label="Project: Microlearning series">
+            <div class="project-tag">Microlearning</div>
+            <h3>Microlearning series</h3>
+            <p>Short lessons designed for retention, workflow integration, and fast updates.</p>
+            <div class="project-meta">Role: Designer • Deliverables: scripts, assets, evaluation</div>
+          </a>
+
+          <a class="card project" href="#" aria-label="Project: Curriculum to workplace translation">
+            <div class="project-tag">Performance</div>
+            <h3>Curriculum to workplace</h3>
+            <p>Translating complex content into job tasks, practice, and observable behaviours.</p>
+            <div class="project-meta">Role: Designer • Deliverables: task map, activities, rubric</div>
+          </a>
+        </div>
+      </section>
+
+      <section id="education" class="section">
+        <div class="section-head">
+          <h2>Education</h2>
+          <p class="section-sub">Keep it short. Add relevant certificates.</p>
+        </div>
+        <div class="stack">
+          <div class="card item">
+            <div class="item-top">
+              <h3>Degree / Program</h3>
+              <div class="muted">Institution • Year</div>
+            </div>
+            <p class="muted">Add 1–2 relevant highlights.</p>
+          </div>
+        </div>
+      </section>
+
+      <section id="skills" class="section">
+        <div class="section-head">
+          <h2>Skills</h2>
+          <p class="section-sub">Group them the way hiring managers scan.</p>
+        </div>
+        <div class="card pills">
+          <span class="pill">Instructional design</span>
+          <span class="pill">Learning strategy</span>
+          <span class="pill">Storyboarding</span>
+          <span class="pill">Assessment design</span>
+          <span class="pill">Facilitation</span>
+          <span class="pill">Google Workspace</span>
+          <span class="pill">AI workflows</span>
+          <span class="pill">Project coordination</span>
+        </div>
+      </section>
+
+      <section id="contact" class="section">
+        <div class="section-head">
+          <h2>Contact</h2>
+          <p class="section-sub">Simple and direct.</p>
+        </div>
+        <div class="card">
+          <p>Email: <a href="mailto:hello@example.com">hello@example.com</a></p>
+          <p>LinkedIn: <a href="#" target="_blank" rel="noreferrer">Add link</a></p>
+        </div>
+      </section>
+
+      <footer class="footer">
+        <span>© <span id="year"></span> Nicole Maizelis</span>
+      </footer>
+    </main>
+  </div>
+
   <script src="script.js"></script>
 </body>
 </html>
